@@ -1,0 +1,72 @@
+{
+  "name": "boggler",
+  "version": "1.0.0",
+  "description": "Boggle Assignment for RStudio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jonyoder/boggler.git"
+  },
+  "keywords": [
+    "boggle"
+  ],
+  "author": "Jonathan Yoder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonyoder/boggler/issues"
+  },
+  "homepage": "https://github.com/jonyoder/boggler#readme",
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-react-jsx": "^6.3.13",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "classnames": "^2.2.1",
+    "del": "^2.2.0",
+    "envify": "^3.4.0",
+    "flux": "^2.1.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-plumber-notifier": "0.0.2",
+    "gulp-react-templates": "^0.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-webpack": "^1.5.0",
+    "jest-cli": "^0.8.1",
+    "jshint": "^2.8.0",
+    "keymirror": "^0.1.1",
+    "lodash": "^3.10.1",
+    "object-assign": "^4.0.1",
+    "react": "^0.14.3",
+    "react-cookie": "^0.4.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.2",
+    "redux": "^3.0.5",
+    "redux-devtools": "^3.0.0",
+    "redux-devtools-dock-monitor": "^1.0.1",
+    "redux-devtools-log-monitor": "^1.0.1",
+    "redux-router": "^1.0.0-beta5",
+    "uglify-js": "^2.6.1",
+    "watchify": "^3.6.1",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "history": "^1.13.1",
+    "material-ui": "^0.13.4",
+    "react-addons-linked-state-mixin": "^0.14.3",
+    "react-bootstrap": "^0.28.1",
+    "react-mixin": "^3.0.3",
+    "react-redux": "^4.0.1",
+    "react-tap-event-plugin": "^0.2.1",
+    "redux-logger": "^2.3.1",
+    "redux-promise": "^0.5.0",
+    "redux-thunk": "^1.0.2"
+  }
+}

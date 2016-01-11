@@ -1,0 +1,692 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"LOGIN_UU",
+				"LOGIN_USER_REQUEST"
+			],
+			[
+				"redirec",
+				"redirectTo"
+			],
+			[
+				"is",
+				"isAuthenticated"
+			],
+			[
+				"LO",
+				"LOGIN_USER_FAILURE"
+			],
+			[
+				"copy-",
+				"copy-assets"
+			],
+			[
+				"get",
+				"getAllMessages"
+			],
+			[
+				"lo",
+				"locationId"
+			],
+			[
+				"Lo",
+				"LocationActions"
+			],
+			[
+				"hand",
+				"handleLocationsFailed"
+			],
+			[
+				"React",
+				"ReactDOM"
+			],
+			[
+				"system_ca",
+				"system_category_values"
+			],
+			[
+				"sys",
+				"system_wsdl_operations"
+			],
+			[
+				"pare",
+				"parentDatasource"
+			],
+			[
+				"categ",
+				"category_value_name"
+			],
+			[
+				"category_",
+				"category_name"
+			],
+			[
+				"category_va",
+				"category_value_name"
+			],
+			[
+				"G",
+				"GROUP"
+			],
+			[
+				"fil",
+				"filterCount"
+			],
+			[
+				"cate",
+				"category_value_id"
+			],
+			[
+				"resourc",
+				"resourceId"
+			],
+			[
+				"re",
+				"resourceId"
+			],
+			[
+				"resou",
+				"resourceType"
+			],
+			[
+				"filt",
+				"filterCount"
+			],
+			[
+				"res",
+				"resourceType"
+			],
+			[
+				"parent",
+				"parentDatasourceId"
+			],
+			[
+				"filter",
+				"filterType"
+			],
+			[
+				"Or",
+				"orderByDirection"
+			],
+			[
+				"orderB",
+				"orderByDirection"
+			],
+			[
+				"loca",
+				"localhost_9400"
+			],
+			[
+				"Jon",
+				"JonFirst"
+			],
+			[
+				"ca",
+				"categoryValue2"
+			],
+			[
+				"send",
+				"sendToServer"
+			],
+			[
+				"cus",
+				"CUSTOM_PROPERTY_DEFAULT_VALUE"
+			],
+			[
+				"p",
+				"PROPERTY_VALUE"
+			],
+			[
+				"Cus",
+				"CUSTOM_PROPERTY_DEFAULT_VALUE"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"c",
+				"RESOURCE_CREATION_TIMESTAMP"
+			],
+			[
+				"BD",
+				"BD_PARENT_PATH"
+			],
+			[
+				"RE",
+				"RESOURCE_MODIFICATION_TIMESTAMP"
+			],
+			[
+				"RESOURCE",
+				"RESOURCE_NAME"
+			],
+			[
+				"RESOURCE_",
+				"RESOURCE_NAME"
+			],
+			[
+				"BD_DA",
+				"BD_DATASOURCE_TYPE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gupfile.babel.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/joyoder/Documents/workspace/r/boggler"
+	],
+	"file_history":
+	[
+		"/Users/joyoder/IdeaProjects/TestOne/package.json",
+		"/Users/joyoder/Desktop/tasks.txt",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/containers/App.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/views/LoginView.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/css/bd.css",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/actions/index.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/store/configureStore.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/views/ProtectedView.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/package.json",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/flux-bd.sublime-project",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/routes/index.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/reducers/data.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/containers/Root.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/reducers/auth.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/constants/index.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/app.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/containers/DevTools.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/utils/index.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/components/AuthenticatedComponent.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/views/Jon.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/views/HomeView.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/gulpfile.babel.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/containers/Root.rt",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/build/containers/Root.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/containers/index.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/views/index.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/build/routes/index.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/node_modules/redux-router/package.json",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/reducers/index.js",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/components/BDApp.rt",
+		"/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js/components/BDApp.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/MessageSection.react.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/MessageSection.rt",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/MessageSection.rt.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/MessageListItem.react.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/MessageListItem.rt",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/MessageComposer.react.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/MessageComposer.rt",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/MessageComposer.rt.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/gulpfile.babel.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/dist/components/MessageComposer.rt.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/package.json",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/app.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/ChatExampleData.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/utils/ChatMessageUtils.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/ChatApp.react.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/ThreadListItem.react.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/js/components/ThreadSection.react.js",
+		"/Users/joyoder/Documents/workspace/flux-chat/index.html",
+		"/Users/joyoder/Documents/workspace/flux-chat/.babelrc",
+		"/Users/joyoder/Documents/workspace/flux-chat/webpack.config.js",
+		"/Users/joyoder/Desktop/stuff.txt",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/stores/LocationStore.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/gulpfile.babel.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/actions/LocationActions.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/stores/FavoritesStore.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/sources/LocationSource.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/js/alt.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/components/Locations.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/stores/FavoriteStore.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/js/App.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/action/LocationActions.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/webpack.config.js",
+		"/Users/joyoder/Desktop/ajax-loader.gif",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/components/app.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/dist/index.html",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/index.html",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/js/main.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/main.es6.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/.babelrc",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/main.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/components/app.es6.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/src/js/app.es6.js",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/package.json",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/fluxxy-test.sublime-project",
+		"/Users/joyoder/Documents/workspace/fluxxy-test/gulpfile.js",
+		"/Users/joyoder/Desktop/fluxxy-test/package.json",
+		"/Users/joyoder/Desktop/fluxxy/package.json",
+		"/private/var/folders/zk/gvhcpb616yl1cc48kkt2hznm0000gp/T/com.microsoft.Outlook/Outlook_MessageSource_2015-12-10 21:36:23 +0000_0",
+		"/Users/joyoder/Desktop/gulp/node_modules/gulp-uglify/node_modules/deap/lib/deap.js",
+		"/Users/joyoder/Desktop/gulp/node_modules/gulp-uglify/minifier.js",
+		"/Users/joyoder/Desktop/node/gulpfile.js",
+		"/Users/joyoder/Desktop/node/package.json",
+		"/Users/joyoder/Desktop/node/index.html",
+		"/Users/joyoder/Desktop/node/js/script.js",
+		"/Users/joyoder/Documents/Info/mount_engineering.sh",
+		"/Users/joyoder/Documents/Personal/Misc.txt",
+		"/Users/joyoder/Desktop/gulpfile.js",
+		"/Users/joyoder/Desktop/style.css",
+		"/Users/joyoder/Desktop/package.json",
+		"/Users/joyoder/Desktop/diff.patch",
+		"/Users/joyoder/Documents/BD Team/Post-7.0.2 Planning/distribution.txt",
+		"/Users/joyoder/Desktop/UserColumnsImplGen.java",
+		"/Users/joyoder/Documents/Info/git_clone.sh",
+		"/Users/joyoder/Documents/Sample Code/Bulk Categorization/categories.sql",
+		"/Users/joyoder/Desktop/out.diff",
+		"/Users/joyoder/Desktop/BD-4236.patch",
+		"/Users/joyoder/Documents/Info/reset_namespace.sh",
+		"/Users/joyoder/Desktop/out2.json",
+		"/Users/joyoder/Desktop/out.json",
+		"/Users/joyoder/dev/projects/cis-integrate/build/bd/webapps/directory/api-docs/index.html",
+		"/Users/joyoder/Desktop/v2.json",
+		"/Users/joyoder/Desktop/changes.txt",
+		"/Users/joyoder/Downloads/swagger.yaml",
+		"/Users/joyoder/Desktop/swagger-core/pom.xml",
+		"/Users/joyoder/Documents/API Design/properties.sh",
+		"/Users/joyoder/Documents/Info/create_bd_data.sh",
+		"/Users/joyoder/Desktop/users.sh",
+		"/Users/joyoder/dev/projects/cis-integrate/build/bd/conf/server/server_values.xml",
+		"/Users/joyoder/Desktop/list.csv",
+		"/Users/joyoder/Desktop/Innovate Everywhere Submission.txt",
+		"/Users/joyoder/Documents/BD Team/BD-3858.patch",
+		"/Users/joyoder/Documents/BD Team/GIT Conversion/GIT-Version-Copyright.patch",
+		"/Users/joyoder/Desktop/properties.patch",
+		"/Users/joyoder/Box Sync/Cisco/2015-11-04-backup.patch",
+		"/Users/joyoder/Desktop/backup.patch",
+		"/Users/joyoder/Desktop/notes.txt",
+		"/Users/joyoder/Documents/Sample Code/gxt-3.1.1/examples/src/com/sencha/gxt/examples/resources/client/TestData.java",
+		"/Users/joyoder/Documents/Info/sites.txt",
+		"/Users/joyoder/Desktop/7.0.2.diff",
+		"/Users/joyoder/Desktop/6.2.7.diff",
+		"/Users/joyoder/Desktop/diff.txt",
+		"/Users/joyoder/dev/projects/cis-integrate/build/apps/dlm/cis-csmonitor-server/dlm.xml",
+		"/Users/joyoder/dev/projects/cis-integrate/build/apps/dlm/cis-csmonitor-server/webapp/WEB-INF/flex/messaging-config.xml",
+		"/Users/joyoder/dev/projects/cis-integrate/build/apps/dlm/cis-csmonitor-server/webapp/index.html",
+		"/Users/joyoder/dev/projects/cis-integrate/build/apps/server/server_defs.xml",
+		"/private/var/folders/zk/gvhcpb616yl1cc48kkt2hznm0000gp/T/com.microsoft.Outlook/Outlook Temp/Tree_Fix[1].patch",
+		"/private/var/folders/zk/gvhcpb616yl1cc48kkt2hznm0000gp/T/com.microsoft.Outlook/Outlook Temp/Tree_Fix.patch"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<current file>,/Users/joyoder/dev/projects/cis-integrate/mvn/modules/web/flux-bd/js",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"error",
+			".length",
+			"_currentElement",
+			"loginUserRequest",
+			"email",
+			"link",
+			"React",
+			"jwtD",
+			"loginUserRequest()",
+			"LOGIN_USER_REQUEST",
+			"pushState",
+			"addons",
+			"LinkedStateMixin",
+			"reactMixin",
+			"React",
+			"../build",
+			"Provider",
+			"sourcemaps",
+			"module",
+			"dist",
+			"\\n",
+			"dist",
+			"\\n",
+			"class",
+			"\\r",
+			"\\n$",
+			"\\n",
+			"_MessageComposerRt",
+			"_MessageComposerRt2",
+			"MessageComposer",
+			"emitChange",
+			"CHANGE_EVENT",
+			"threadId",
+			"propTypes",
+			"loadCounter",
+			"createStore",
+			"shouldFetch",
+			"loadCounter",
+			"loading",
+			"LocationStore",
+			"LocationSource",
+			"this.dispatch",
+			"Favorites",
+			"K",
+			"verizon",
+			"Right",
+			"boolean",
+			"boolean\\",
+			"boolean",
+			"type\": \"boolean",
+			"boolean",
+			"warn",
+			"error",
+			"reflections",
+			"json",
+			"swagger",
+			"mvn",
+			"home depot",
+			"Properties",
+			"RICH_TEXT",
+			"verizon",
+			"odbc/out/",
+			"odbc/out",
+			"lib not found",
+			"error",
+			"'",
+			"=.+",
+			"\\#.+",
+			"=.+",
+			"\\#.+",
+			"=.+",
+			"\\#.+",
+			"=.+",
+			"\\#.+",
+			"=.+",
+			"\\#.+",
+			"=.+",
+			"\\#.+",
+			"=.+",
+			"\\#.+",
+			"=.+",
+			"#",
+			"messages.properties",
+			"admin:admin",
+			"site_01",
+			"localhost_9400",
+			"admin:admin",
+			"The",
+			".wmd",
+			"options.preview",
+			"alert",
+			"preview",
+			"1024",
+			"MAX_MEM",
+			"ng-",
+			"class=\"\"",
+			"alias",
+			"cis_server",
+			".jks",
+			"cis_server",
+			"alias",
+			"verisign",
+			"lib:",
+			"apps/common/lib",
+			"\\-D",
+			"\\:",
+			"api",
+			"\\:",
+			"cdms",
+			"enoent",
+			"error",
+			"No Such File",
+			"\\:",
+			"order",
+			"\\:",
+			"jetty-",
+			"\\:",
+			"jetty",
+			"ws",
+			"\\:",
+			"bd/apps",
+			"\\:",
+			"ColumnMatcher",
+			"NullPointerException",
+			"7.0",
+			"7.0.1",
+			"Chloe",
+			"7.0.1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" ",
+			"aaf",
+			" ",
+			"",
+			"admin:rdcdjon",
+			"site01",
+			"site_01",
+			"admin:rdcdjon",
+			"",
+			"\\n-D",
+			":\\n",
+			"Julie",
+			"Chloe",
+			"",
+			"\"",
+			"],\\n[",
+			"",
+			"],\\n[",
+			"},\\n{",
+			";\\n",
+			"\\nat ",
+			" at\\n ",
+			"at\\n",
+			"",
+			"/",
+			"jon/test",
+			"\"jonathan/test\"",
+			"\\n     :",
+			"\\n-D",
+			"\\n     :",
+			"\\n:",
+			"\\n-D",
+			"\\n     :",
+			"\\n-D",
+			"\\n     :",
+			"\\n-D",
+			"\\n-",
+			".",
+			"\\n-D",
+			"\\n    -",
+			"\\n-",
+			"query",
+			"com.cisco.cis.web.example"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gupfile.babel.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 409.0
+	},
+	"pinned_build_system": "",
+	"project": "boggler.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
