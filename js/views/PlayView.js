@@ -2,6 +2,8 @@ import React from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
+import Boggle from '../utils/boggle';
+
 import * as actionCreators from '../actions';
 
 export class LoginView extends React.Component {
@@ -15,6 +17,11 @@ export class LoginView extends React.Component {
     };
     this._handleChange = this._handleChange.bind(this);
     this._login = this._login.bind(this);
+  }
+
+  _go(event) {
+    let boggle = new Boggle("A", "B", "C", "D", "A", "F", "G", "A", "B");
+    console.log(boggle.match("DAT"));
   }
 
   _handleChange(event) {
@@ -40,6 +47,7 @@ export class LoginView extends React.Component {
     return (
       <div>
         <p>Jonathan's Boggle Game</p>
+        <div onClick={this._go}>Go</div>
       </div>
     );
   }
@@ -55,3 +63,4 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(LoginView);
+
