@@ -1,4 +1,4 @@
-export const DICT = [
+var DICT = [
 "A",
 "a",
 "aa",

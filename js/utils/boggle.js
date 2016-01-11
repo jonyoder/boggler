@@ -1,4 +1,4 @@
-const GRID_SIZE = 3;
+const GRID_SIZE = 5;
 
 class Boggle {
 
@@ -52,7 +52,7 @@ class Boggle {
         }
         this.baseMap = baseMap;
 
-    } 
+    }
 
     print() {
         console.log(this.baseMap);
@@ -78,7 +78,7 @@ class Boggle {
 class Letter {
 
     constructor(letter, serial, x, y) {
-        this.letter = letter;
+        this.letter = letter.toLowerCase();
         this.serial = serial;
         this.x = x;
         this.y = y;

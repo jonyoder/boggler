@@ -21,7 +21,7 @@ gulp.task("clean", () => {
 
 gulp.task("copy-assets", ['clean'], () => {
     return gulp
-        .src(["index.html", "**/*.css"])
+        .src(["index.html", "**/*.css", "words.js"])
         .pipe(gulp.dest("dist"));
 });
 

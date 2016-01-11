@@ -20,8 +20,12 @@ export class LoginView extends React.Component {
   }
 
   _go(event) {
-    let boggle = new Boggle("A", "B", "C", "D", "A", "F", "G", "A", "B");
-    console.log(boggle.match("DAT"));
+    let boggle = new Boggle("A", "E", "C", "S", "A", "F", "G", "M", "B", "T", "S", "D", "R", "L", "M", "E", "T", "H", "S", "R", "A", "H", "G", "B", "C");
+    for (let word of DICT) {
+      if (word.length > 2 && boggle.match(word.toLowerCase())) {
+        console.log(word);
+      }
+    }
   }
 
   _handleChange(event) {
