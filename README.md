@@ -1,4 +1,4 @@
 # Boggler 
 
-Words list complements of: /usr/share/dict/words
+Dictionary complements of: /usr/share/dict/words
 
