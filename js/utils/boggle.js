@@ -1,4 +1,4 @@
-const GRID_SIZE = 5;
+const GRID_SIZE = 4;
 
 class Boggle {
 
@@ -58,20 +58,30 @@ class Boggle {
         console.log(this.baseMap);
     }
 
-    match(word, letter) {
+    match(word, letter, lettersInPath=new Array()) {
         let map = (letter === undefined) ? this.baseMap : letter.getAdjacent();
         let adjacentLetters = map.get(word.charAt(0))
         if (adjacentLetters !== undefined) {
             for (let adjacentLetter of adjacentLetters) {
-                if (word.length > 1) {
-                    return this.match(word.substring(1), adjacentLetter);
-                }
-                else {
-                    return true;
+
+                // Don't allow a letter to be used twice
+                if (!lettersInPath.find((element, index, array) => {
+                    return element === adjacentLetter;
+                }))
+                {
+                    if (word.length > 1) {
+                        // recursive call
+                        let recursiveResult = this.match(word.substring(1), adjacentLetter, lettersInPath.concat(adjacentLetter)); 
+                        if (recursiveResult !== undefined)
+                            return recursiveResult; 
+                    }
+                    else {
+                        return lettersInPath.concat(adjacentLetter);
+                    }
                 }
             }
         }
-        return false;
+        return undefined;
     }
 }
 

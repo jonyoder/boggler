@@ -20,12 +20,20 @@ export class LoginView extends React.Component {
   }
 
   _go(event) {
-    let boggle = new Boggle("A", "E", "C", "S", "A", "F", "G", "M", "B", "T", "S", "D", "R", "L", "M", "E", "T", "H", "S", "R", "A", "H", "G", "B", "C");
+    let boggle = new Boggle("A", "E", "C", "S", "A", "F", "G", "M", "B", "T", "S", "D", "R", "L", "M", "E");
+    //let boggle = new Boggle("A", "E", "C", "S", "A", "F", "G", "M", "B", "T", "S", "D", "R", "L", "M", "E", "T", "H", "S", "R", "A", "H", "G", "B", "C");
+    let start = new Date();
     for (let word of DICT) {
-      if (word.length > 2 && boggle.match(word.toLowerCase())) {
-        console.log(word);
-      }
+      if (word.length > 2) {
+        let path = boggle.match(word.toLowerCase());
+        if (path !== undefined) {
+          console.log(word);
+        }
+      } 
     }
+    let end = new Date();
+    let time = end - start;
+    console.log(time);
   }
 
   _handleChange(event) {
