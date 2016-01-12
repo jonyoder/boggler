@@ -27,12 +27,12 @@ There are a number of relatively easy improvements that would be nice to add to 
   - Dictionary indexing to support solving multiple words at once (for example, the words "artifact", "art", "fact", "act" could all be solved in a single recursion
 
 ## Thanks to
-Dictionary complements of: /usr/share/dict/words
-Redux: http://http://redux.js.org/
-Babel: http://babeljs.io/
-ReactJS: https://facebook.github.io/react/
-Flux: https://facebook.github.io/flux/
-Gulp: http://gulpjs.com/
-WebPack: https://webpack.github.io/
+- Dictionary complements of: /usr/share/dict/words
+- Redux: http://http://redux.js.org/
+- Babel: http://babeljs.io/
+- ReactJS: https://facebook.github.io/react/
+- Flux: https://facebook.github.io/flux/
+- Gulp: http://gulpjs.com/
+- WebPack: https://webpack.github.io/
 
 
