@@ -4,6 +4,8 @@
 
 This is a simple Boggle solver that supports a 4x4 to 6x6 Boggle grid (to simulate Boggle, Big Boggle, and Super Big Boggle). The application's boilerplate code is based on a example from the Redux project, and is written in ES2015/ES6 and transcompiled by Babel. The dictionary is included in 'words.js'. No server-side code is required.
 
+The application includes the redux-devtools project, which displays a docked tool window to the right of the application. You can use this tool to monitor the current Redux applications state. Of particular interest is the *state.data* object.
+
 The following source files are probably of most interest:
 - words.js (the dictionary; copied from /usr/share/dict/words)
 - js/actions/index.js (see the 'playGame' method)
