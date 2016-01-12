@@ -1,5 +1,8 @@
 # Boggler 
 
+## Live Demo
+http://jonyoder.github.io
+
 ## Notes
 
 This is a simple Boggle solver that supports a 4x4 to 6x6 Boggle grid (to simulate Boggle, Big Boggle, and Super Big Boggle). The application's boilerplate code is based on a example from the Redux project, and is written in ES2015/ES6 and transcompiled by Babel. The dictionary is included in 'words.js'. No server-side code is required.
