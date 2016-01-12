@@ -8,6 +8,10 @@ The application includes the redux-devtools project, which displays a docked too
 
 If you open the Chrome developer console, you'll see that the application logs the milliseconds to solve each puzzle.
 
+The application solves the Boggle board as follows:
+- Using the view data, a "graph" (Map of Maps) is created to support fast recursive lookups of letter sequences
+- Using the graph, we simply iterate the dictionary entries and look for matches
+
 The following source files are probably of most interest:
 - words.js (the dictionary; copied from /usr/share/dict/words)
 - js/actions/index.js (see the 'playGame' method)
@@ -26,6 +30,7 @@ There are a number of relatively easy improvements that would be nice to add to 
 - Provide a "New Game" link to randomize the board (you can currently switch to the home page and back to accomplish this)
 - Provide a better binding between ReactJS and the game board (the current implementation is hackish)
 - Provide a better dictionary that includes plurals and other variations
+- Testing: Unit tests (especially for the solver logic) should be added
 - Efficiency improvements
   - Multi-threaded server-side solver 
   - Dictionary indexing to support solving multiple words at once (for example, the words "artifact", "art", "fact", "act" could all be solved in a single recursion
