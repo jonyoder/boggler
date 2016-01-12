@@ -40,7 +40,7 @@ There are a number of relatively easy improvements that would be nice to add to 
 
 ## Thanks to
 - Dictionary complements of: /usr/share/dict/words
-- Redux: http://http://redux.js.org/
+- Redux: http://redux.js.org/
 - Babel: http://babeljs.io/
 - ReactJS: https://facebook.github.io/react/
 - Flux: https://facebook.github.io/flux/
