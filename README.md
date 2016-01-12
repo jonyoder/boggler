@@ -6,6 +6,8 @@ This is a simple Boggle solver that supports a 4x4 to 6x6 Boggle grid (to simula
 
 The application includes the redux-devtools project, which displays a docked tool window to the right of the application. You can use this tool to monitor the current Redux applications state. Of particular interest is the *state.data* object.
 
+If you open the Chrome developer console, you'll see that the application logs the milliseconds to solve each puzzle.
+
 The following source files are probably of most interest:
 - words.js (the dictionary; copied from /usr/share/dict/words)
 - js/actions/index.js (see the 'playGame' method)
