@@ -23,8 +23,8 @@ There are a number of relatively easy improvements that would be nice to add to 
 - Provide a better binding between ReactJS and the game board (the current implementation is hackish)
 - Provide a better dictionary that includes plurals and other variations
 - Efficiency improvements
--   Multi-threaded server-side solver 
--   Dictionary indexing to support solving multiple words at once (for example, the words "artifact", "art", "fact", "act" could all be solved in a single recursion
+--   Multi-threaded server-side solver 
+--   Dictionary indexing to support solving multiple words at once (for example, the words "artifact", "art", "fact", "act" could all be solved in a single recursion
 
 ## Thanks to
 Dictionary complements of: /usr/share/dict/words
