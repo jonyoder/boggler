@@ -1,3 +1,55 @@
 body {
     margin: 2rem;
+    font-family: Arial;
+    font-size: .85em;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.game {
+    border-radius: 5px;
+    background-color: rgb(2,81,143);
+    padding: .5em;
+    border: 1px solid;
+    float: left;
+}
+
+.game .row {
+    float: left;
+    clear: both;
+}
+
+.game .row .cell {
+    float: left;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid grey;
+}
+
+.game .row .cell input {
+    width: 1.2rem;
+    height: 1.5rem;
+    padding: 0 0 0 .3rem;
+    border: none;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.results {
+    margin-top: 2rem;
+}
+
+.results select {
+    width: 10rem;
 }

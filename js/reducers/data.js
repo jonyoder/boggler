@@ -1,21 +1,22 @@
-import {RECEIVE_SITES, FETCH_SITES_REQUEST} from '../constants';
+import {SET_SIZE, PLAY_GAME} from '../constants';
 import {createReducer} from '../utils';
 
+const DEFAULT_SIZE = 4;
+
 const initialState = {
-    data: null,
-    isFetching: true
+    results: null,
+    size: DEFAULT_SIZE
 };
 
 export default createReducer(initialState, {
-    [RECEIVE_SITES]: (state, payload) => {
+    [SET_SIZE]: (state, payload) => {
         return Object.assign({}, state, {
-            'data': [ ...payload.data],
-            'isFetching': false
+            'size': payload.size
         });
     },
-    [FETCH_SITES_REQUEST]: (state, payload) => {
+    [PLAY_GAME]: (state, payload) => {
         return Object.assign({}, state, {
-            'isFetching': true
+            'results': payload.results
         });
     }
 });

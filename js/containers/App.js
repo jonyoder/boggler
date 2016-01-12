@@ -13,15 +13,11 @@ class CoreLayout extends React.Component {
 
         return (
             <div>
-                <nav className="navbar navbar-default">
+                <nav className="navbar">
                     <div className="container">
                         <div className="navbar-header">
-                            <Link className="navbar-brand" to="/">Boggler</Link>
-                        </div>
-                        <div id="navbar">
-                            <ul className="nav navbar-nav navbar-right">
-                                <li><Link to="/play">Play</Link></li>
-                            </ul>
+                            <Link className="navbar-brand" to="/">Boggler</Link> &nbsp;
+                            <Link className="navbar-brand" to="/play">Play</Link>
                         </div>
                     </div>
                 </nav>

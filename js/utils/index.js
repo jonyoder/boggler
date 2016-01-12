@@ -25,3 +25,7 @@ export function checkHttpStatus(response) {
 export function parseJSON(response) {
     return response.json();
 }
+
+export function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}

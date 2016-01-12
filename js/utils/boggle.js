@@ -1,10 +1,10 @@
-const GRID_SIZE = 4;
+export class Boggle {
 
-class Boggle {
+    constructor(game_size, dice) {
 
-    constructor(...props) {
+        this.game_size = game_size;
 
-        if (props.length % GRID_SIZE != 0) {
+        if (dice.length % game_size != 0) {
             throw new Error("Unexpected initialization array size");
         }
 
@@ -12,12 +12,12 @@ class Boggle {
         this.userData = [];
 
         // Build array of arrays representing rows and columns
-        for (let y=0; y<GRID_SIZE; y++) { // Rows
+        for (let y=0; y<game_size; y++) { // Rows
 
             let row = [];
 
-            for (let x=0; x<GRID_SIZE; x++) { // Columns
-                let letter = new Letter(props[(y*GRID_SIZE)+x], serial++, y, x);
+            for (let x=0; x<game_size; x++) { // Columns
+                let letter = new Letter(game_size, dice[(y*game_size)+x], serial++, y, x);
                 row.push(letter);
             }
 
@@ -87,7 +87,8 @@ class Boggle {
 
 class Letter {
 
-    constructor(letter, serial, x, y) {
+    constructor(game_size, letter, serial, x, y) {
+        this.game_size = game_size;
         this.letter = letter.toLowerCase();
         this.serial = serial;
         this.x = x;
@@ -106,9 +107,9 @@ class Letter {
     getAdjacentIndices() {
         let adjacencies = new Array();
         let minRow = this.y == 0 ? 0 : this.y-1;
-        let maxRow = this.y == GRID_SIZE-1 ? this.y : this.y+1;
+        let maxRow = this.y == this.game_size-1 ? this.y : this.y+1;
         let minCol = this.x == 0 ? 0 : this.x-1;
-        let maxCol = this.x == GRID_SIZE-1 ? this.x : this.x+1;
+        let maxCol = this.x == this.game_size-1 ? this.x : this.x+1;
         for (let row=minRow; row<=maxRow; row++) {
             for (let col=minCol; col<=maxCol; col++) {
                 if (!(row == this.y && col == this.x)) {
@@ -150,5 +151,18 @@ class Position {
     }
 }
 
-export default Boggle;
+export class Result {
+    constructor(word, letters) {
+        this.word = word;
+        this.letters = letters;
+    }
+
+    getWord() {
+        return this.word;
+    }
+
+    getLetters() {
+        return this.letters;
+    }
+}
 
