@@ -1,6 +1,6 @@
 # Boggler 
 
-## Live Demo
+## Live Demo Game
 http://jonyoder.github.io
 
 ## Notes
